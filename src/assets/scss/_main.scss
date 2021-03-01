@@ -1,0 +1,49 @@
+#nprogress .bar {
+  z-index: 100000;
+  background-color: #195bff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  display: block;
+  background: #f4f7f8;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #2c3e50;
+  border-radius: 5px;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+::selection {
+  background: #d6e1f9;
+}
+
+::-moz-selection {
+  background: #d6e1f9;
+}
+
+::-webkit-selection {
+  background: #d6e1f9;
+}
+
+.will,
+#app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}

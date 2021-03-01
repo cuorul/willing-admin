@@ -1,0 +1,51 @@
+.will .vs-sidebar__group {
+	min-width: 200px;
+}
+
+.will .vs-sidebar-content {
+	width: 100%;
+	max-width: 200px;
+}
+
+.will-nav,
+.will-ads {
+	/* 12em is the width of the columns */
+	flex: 0 0 auto;
+}
+
+.will-nav {
+	/* put the nav on the left */
+	order: -1;
+	display: flex;
+}
+
+.will-body .second-nav {
+	width: 0px;
+	transition: all 0.25s ease;
+	position: relative;
+	overflow: hidden;
+}
+
+.will-body .second-nav-active {
+	width: 200px;
+	border-right: 1px solid #eee;
+}
+
+.toggle-second-nav {
+	width: 50px;
+	height: 50px;
+}
+
+.toggle-second-nav .icon {
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	margin: 5px;
+	cursor: pointer;
+	transition: 0.25s;
+}
+
+.toggle-second-nav .icon:hover {
+	/* background-color: #f9f9f9; */
+	padding: 10px 8px 10px 12px;
+}

@@ -1,0 +1,36 @@
+.will-body {
+	display: flex;
+	flex: 1;
+}
+
+.will-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	z-index: 99999;
+	background-color: #fff;
+}
+
+.will-content-scroll {
+	max-height: 100vh;
+	overflow: scroll;
+}
+
+.will-main-scroll {
+	max-height: calc(100vh - 50px);
+	height: calc(100vh - 50px);
+	overflow: scroll;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* 可以设置不同的进入和离开动画 */
+.router-fade-enter-active {
+	transition: opacity 0.4s;
+}
+
+.router-fade-enter,
+.router-fade-leave-active {
+	opacity: 0;
+}
